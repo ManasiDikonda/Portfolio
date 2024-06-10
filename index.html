@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Cmpatible" content="Ie=edge">
+	<meta name="viewport" content = "width=device-width, initial-scale=1.0">
+	<title>Manasi Dikonda</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/501c2644d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<nav>
+			<img src = "images/logo.jpg" class="logo">
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+			</ul>
+			<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+		</nav>
+		<div class="header-text">
+			<p>Artificial Inlligent & Data Science Engineer</p>
+			<h1>Hi, I'm <span>Manasi</span><br> Dikonda From India</h1>
+		</div>
+	</div>
+</div>
+<!------------------------------ About me-------------------------->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="images/a.jpg">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p>I am a final-year student of Bachelor's of Engineering(B.E.). I am highly passionate about working 
+				on machine learning, deep learning, and data science projects. I am seeking opportunities 
+				in a corporate environment where I can apply and enhance my skills, drive innovation, and 
+				contribute positively to transformative projects.</p>
+				<div class = "tab-title">
+				<p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+				<p class="tab-links" onclick="opentab('experience')"> Experience </p>
+				<p class="tab-links" onclick="opentab('education')"> Education </p>
+				</div>
+				<div class="tab-contents active-tab" id = "skills">
+					<ul>
+						<li><span>Machine Learning</span><br>Training the Model to perform tasks</li>
+						<li><span>Deep Learning</span><br>Build Neural Network Model for highlevel tasks</li>
+						<li><span>Power BI/Data Science</span><br>Taking insights from data</li>
+						<li><span>Flutter App Development</span><br>Building Android apps</li>
+						<li><span>Web Development</span><br>Web app development</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id = "experience">
+					<ul>
+						<li><span>Smart Device Integration(IOT) Intern<br>Dec 2023 - Feb 2024 </span>
+							<br><br><ol>Task 1: Smart Device Integration in 1to1RX Patient App:</ol>Establish seamless integration between the selected smart device and the 1to1RX application, enabling retrieval of health data.
+							<br><br><ol>Task 2:Healthy Reminders in 1to1RX Doctor App:</ol>Developed and implemented the Healthy Reminder feature in 1to1RX, allowing patients to set medication reminders with ease.
+							<br><br><ol>Task 3:Role Based Access in Nursing College System:</ol>Implemented Role-Based Access Control (RBAC) in 1to1RX Nursing app to regulate user permissions based on predefined roles.
+						</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id = "education">
+					<ul>
+						<li><span>2022-Current</span><br>BE from Pune Vidyarthi Griha's College of Engineering, Pune</li>
+						<li><span>2018-2021</span><br>Diploma from Cusrow Wadia Institute of Technology</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!------------------------------ Services-------------------------->
+
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class="fa-solid fa-graduation-cap" style="color: #ffffff;"></i>
+				<h2>Machine Learning</h2>
+				<p>Machine Learning enables systems to learn from data, identify patterns, and make decisions with minimal human intervention. 
+				Help to empower applications to improve accuracy and performance over time through experience.</p>
+				<a href= "#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-diagram-project" style="color: #ffffff;"></i>
+				<h2>Deep Learning</h2>
+				<p>Deep Learning involves neural networks with many layers, enabling the model to automatically learn complex patterns and representations from large datasets, often used in applications like image and speech recognition.</p>
+				<a href= "#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-magnifying-glass-chart" style="color: #ffffff;"></i>
+				<h2>Data Science</h2>
+				<p>Data Science uses scientific methods, algorithms, and systems to extract insights and knowledge from structured and unstructured data, driving informed decision-making and innovation across various industries.</p>
+				<a href= "#">Learn more</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<! -------------------------------- Portfolio ---------------------------------->
+
+<div id="portfolio">
+	<div class="container">
+		<h1 class="sub-title">My Work</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/w1.jpg">
+				<div class="layer">
+					<h3>Credit Card Fraud Detection</h3>
+					<p>Ml and DL project to check whether the new given transaction is fraudulent or not.</p>
+					<a href="https://github.com/ManasiDikonda/ML-Projects/tree/main/Credit%20card%20fraud%20detection"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/w2.jpg">
+				<div class="layer">
+					<h3>Fashion Class Classification</h3>
+					<p>Ml project that classifies the images in different category based on the products present in the image</p>
+					<a href="https://github.com/ManasiDikonda/ML-Projects/tree/main/Fashion%20Class%20Classification"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work3.jpg">
+				<div class="layer">
+					<h3>Breast Cancer Classification</h3>
+					<p>Ml project to classify the test whether it belong Malignant class or Benign class</p>
+					<a href="https://github.com/ManasiDikonda/ML-Projects/blob/main/Breast_Cancer_Classification.ipynb"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">See More</a>
+	</div>	
+</div>
+
+<!----------------------- Contact me --------------------->
+
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-regular fa-envelope"></i>  mansidikonda@gmail.com</p>
+				<p><i class="fa-solid fa-phone"></i>  9970563898</p>
+				<div class="social-icons">
+					<a href=" https://www.linkedin.com/in/manasi-dikonda-b99557229"><i class="fa-brands fa-linkedin"></i></a>
+					<a href="https://github.com/ManasiDikonda"><i class="fa-brands fa-github"></i></a>
+				</div>
+				<a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="Email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	var tablinks = document.getElementsByClassName("tab-links")
+	var tabcontents = document.getElementsByClassName("tab-contents")
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcon of tabcontents){
+			tabcon.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+</script>
+<script>
+	var sidemenu = document.getElementById("sidemenu");
+	function openmenu(){
+		sidemenu.style.right = "0";
+	}
+	function closemenu(){
+		sidemenu.style.right = "-200px";
+	}
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw5uH3164ClJtzPH_xVSVPbt7Mcwo3YMxFhDipIJ-ZJnVsnjL8zKZ5U3gnCq7xyuq5T/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML = "Message sent Successfully"
+      	setTimeout(function(){
+      		msg.innerHTML = ""
+		  }, 5000)
+		  form.reset()
+	  })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
+
+
